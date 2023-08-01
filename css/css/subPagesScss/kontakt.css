@@ -1,0 +1,95 @@
+.MainWrapper {
+  margin: 0 auto;
+  width: min(90%, 1400px);
+}
+
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@media (max-width: 420px) {
+  html {
+    overflow-x: hidden;
+  }
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #FFFFFF;
+  position: relative;
+}
+
+@media (max-width: 520px) {
+  .hero__background1 {
+    display: none;
+  }
+}
+
+.main {
+  display: grid;
+  place-items: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5000;
+}
+.box__header {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.box__header-title {
+  color: #18171d;
+  font-size: clamp(2rem, 2.6vw, 3.1rem);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  width: 100%;
+}
+@media (max-width: 420px) {
+  .box__header-title {
+    text-align: center;
+    margin-top: 2.3rem;
+  }
+}
+.box__green {
+  display: grid;
+  place-items: center;
+  position: relative;
+  width: clamp(300px, 80vw, 1000px);
+  min-height: 100%;
+  background-color: #397f5d;
+  margin-top: 1.3rem;
+  border-radius: 10px;
+  box-shadow: 8px 8px 24px -10px rgb(66, 68, 90);
+  padding: 3rem 0;
+}
+.box__green-bgc {
+  position: absolute;
+  bottom: -1.5rem;
+  left: -5.5rem;
+  width: clamp(20rem, 20vw, 30rem);
+  filter: opacity(0.1);
+}
+
+.link {
+  text-decoration: none;
+  padding: 1rem;
+  font-size: clamp(1.2rem, 1.5vw, 1.6rem);
+  color: black;
+}
+
+.contactLink {
+  color: black;
+  font-size: clamp(1.2rem, 1.5vw, 1.6rem);
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=kontakt.css.map */
