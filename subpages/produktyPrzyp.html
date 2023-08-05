@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@200;300;400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="../dist/images/logoIcon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="../../dist/css/common.css" />
+    <link rel="stylesheet" href="../../dist/css/subPagesScss/produkty.css" />
+    <title>Herbimar - Produkty dla branży fitofarmaceutycznej</title>
+    <script defer src="../dist/js/index.js"></script>
+  </head>
+  <body>
+    <img
+      src="../dist/images/btnLeaf.png"
+      alt="liść"
+      style="top: 10rem"
+      class="hero__background1"
+    />
+    <img src="../dist/images/btnLeaf.png" alt="liść" class="hero__background2" />
+    <div class="lightGreen">
+      <img
+        src="../dist/images/thyme2.png"
+        alt="gałązka z liścmi tło"
+        class="lightGreen-img2"
+      />
+      <img
+        src="../dist/images/thyme2.png"
+        alt="gałązka z liścmi tło"
+        class="lightGreen-img1"
+      />
+    </div>
+    <header class="header MainWrapper">
+      <!-- ### navigation ### -->
+      <nav class="nav">
+        <div class="nav__title">
+          <img src="../dist/images/logoIcon.png" alt="logo" />
+          <h1 class="nav__title-item"><a href="../index.html">Herbimar.</a></h1>
+        </div>
+        <div class="nav__list">
+          <li class="nav__list-item">
+            <a href="../index.html">Strona główna</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="procesprod.html">Proces produkcyjny</a>
+          </li>
+          <li class="nav__list-item activeLink">
+            <a href="produkty.html">Produkty</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="certyfikaty.html">Certyfikaty</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#"
+              ><img src="../dist/images/english.png" alt="english icon"
+            /></a>
+          </li>
+          <li class="nav__list-item">
+            <a href="#"><img src="../dist/images/poland.png" alt="poland icon" /></a>
+          </li>
+        </div>
+        <button class="menu">
+          <svg width="70" height="70" viewBox="0 0 100 100">
+            <path
+              class="line line1"
+              d="M 20,29.000046 H 80.000231 C 80.000231,29.000046 94.498839,28.817352 94.532987,66.711331 94.543142,77.980673 90.966081,81.670246 85.259173,81.668997 79.552261,81.667751 75.000211,74.999942 75.000211,74.999942 L 25.000021,25.000058"
+            />
+            <path class="line line2" d="M 20,50 H 80" />
+            <path
+              class="line line3"
+              d="M 20,70.999954 H 80.000231 C 80.000231,70.999954 94.498839,71.182648 94.532987,33.288669 94.543142,22.019327 90.966081,18.329754 85.259173,18.331003 79.552261,18.332249 75.000211,25.000058 75.000211,25.000058 L 25.000021,74.999942"
+            />
+          </svg>
+        </button>
+      </nav>
+      <nav class="navMobile active">
+        <div class="navMobile__logo">
+          <img src="../dist/images/logoIcon.png" alt="logo" />
+          <h1 class="navMobile__logo-item">
+            <a href="../index.html">Herbimar.</a>
+          </h1>
+        </div>
+        <div class="navMobile__list">
+          <li class="navMobile__list-item">
+            <a href="../index.html">Strona główna</a>
+          </li>
+          <li class="navMobile__list-item">
+            <a href="procesprod.html">Proces produkcyjny</a>
+          </li>
+          <li class="navMobile__list-item activeLink">
+            <a href="produkty.html">Produkty</a>
+          </li>
+          <li class="nav__list-item">
+            <a href="certyfikaty.html">Certyfikaty</a>
+          </li>
+          <li class="navMobile__list-item">
+            <a href="kontakt.html">Kontakt</a>
+          </li>
+          <div class="navMobile__list-lang">
+            <li class="navMobile__list-item">
+              <a href="#"
+                ><img src="../dist/images/english.png" alt="english icon"
+              /></a>
+            </li>
+            <li class="navMobile__list-item">
+              <a href="#"
+                ><img src="../dist/images/poland.png" alt="poland icon"
+              /></a>
+            </li>
+          </div>
+        </div>
+        <img src="./dist/images/btnLeaf.png" alt="" class="navMobile__background" />
+      </nav>
+      <!-- ### navigation ### -->
+    </header>
+
+    <main>
+      <table>
+        <thead>
+          <tr>
+            <th>Latin name</th>
+            <th>English name</th>
+            <th>Nazwa Polska</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>AESCULUS HIPPOCASTANIUM SEMEN</td>
+            <td>HORSE-CHESTNUT SEEDS</td>
+            <td>OWOC KASZTANOWCA</td>
+          </tr>
+          <tr>
+            <td>MELISSA OFFICINALIS HERBA/FOLIA</td>
+            <td>LEMON BALM LEAVES OR HERB</td>
+            <td>LIŚĆ/ZIELE MELISY</td>
+          </tr>
+          <tr>
+            <td>SALVIA OFFICINALIS FOLIA/HERBA</td>
+            <td>SAGE LEAVES OR HERB</td>
+            <td>LIŚĆ/ZIELE SZAŁWII</td>
+          </tr>
+          <tr>
+            <td>SATUREJA HORTENSIS FOLIA</td>
+            <td>SUMMER SAVORY LEAVES</td>
+            <td>LIŚĆ CZĄBRU</td>
+          </tr>
+          <tr>
+            <td>VALERIANA OFFICINALIS RADIX/td></td>
+            <td>VALERIAN ROOT</td>
+            <td>KORZEŃ KOZŁKA LEKARSKIEGO</td>
+          </tr>
+          <tr>
+            <td>ABSINTHI HERBA</td>
+            <td>ABSINTHUM HERB</td>
+            <td>PIOŁUN ZIELE</td>
+          </tr>
+          <tr>
+            <td>ACACIA FLOS</td>
+            <td>ACACIA FLOWER</td>
+            <td>AKACJA KWIAT</td>
+          </tr>
+          <tr>
+            <td>ACHILLEA MILLEFOLIUM HERBA</td>
+            <td>YARROW HERB</td>
+            <td>KRWAWNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>ACORUS CALAMUS RHIZOMA</td>
+            <td>SWEET FLAG ROOT</td>
+            <td>TATARAK KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>AESCULUS HIPPOCASTANIUM CORTEX</td>
+            <td>AESCULUS HIPPOCASTANIUM BARK</td>
+            <td>KORA KASZTANOWCA</td>
+          </tr>
+          <tr>
+            <td>AESCULUS HIPPOCASTANIUM FLOS</td>
+            <td>HORSE-CHESTNUT FLOWER</td>
+            <td>KWIAT KASZTANOWCA</td>
+          </tr>
+          <tr>
+            <td>AESCULUS HIPPOCASTANIUM FOLIA</td>
+            <td>HORSE-CHESTNUT LEAF</td>
+            <td>LIŚĆ KASZTANOWCA</td>
+          </tr>
+          <tr>
+            <td>AESCULUS HIPPOCASTANIUM SEMEN</td>
+            <td>HORSE-CHESTNUT SEMEN</td>
+            <td>OWOC KASZTANOWCA</td>
+          </tr>
+          <tr>
+            <td>AGRIMONIA HERBA</td>
+            <td>AGRIMONY HERB</td>
+            <td>RZEPIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>AGROPYRON REPENS RHIZOMA</td>
+            <td>COUCH GRASS ROOT</td>
+            <td>PERZ KŁĄCZE</td>
+          </tr>
+          <tr>
+            <td>ALCHEMILLA VULGARIS HERBA</td>
+            <td>ALCHEMILLA HERB</td>
+            <td>PRZYWROTNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>ALTHEA OFFICINALIS HERBA</td>
+            <td>MARSHMALLOW HERB</td>
+            <td>PRAWOŚLAZ ZIELE</td>
+          </tr>
+          <tr>
+            <td>ALTHEA OFFICINALIS RADIX</td>
+            <td>MARSHMALLOW ROOT</td>
+            <td>PRAWOŚLAZ KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>ALTHEA ROSEA NIGRA FLORES</td>
+            <td>HOLLYHOCK FLOWER</td>
+            <td>MALWA CZARNA KWIAT</td>
+          </tr>
+          <tr>
+            <td>ANETHUM GRAVEOLENS FRUCTUS</td>
+            <td>DILL FRUIT</td>
+            <td>OWOC KOPRU OGRODOWEGO</td>
+          </tr>
+          <tr>
+            <td>ANGELICA ARCHANGELICA RADIX</td>
+            <td>ANGELICA ROOT</td>
+            <td>ARCYDZIĘGIEL KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>ARCTIUM LAPPA RADIX</td>
+            <td>GREAT BURDOCK ROOT</td>
+            <td>ŁOPIAN KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>ARNICA CHAMISSONIS FLOS</td>
+            <td>ARNICA FLOWER</td>
+            <td>KWIAT ARNIKI ŁĄKOWEJ</td>
+          </tr>
+          <tr>
+            <td>ARONIA MELANOCARPA FRUCTUS</td>
+            <td>BLACK CHOKEBERRY FRUIT</td>
+            <td>ARONIA CZARNOOWOCOWA</td>
+          </tr>
+          <tr>
+            <td>AVENA SATIVA HERBA</td>
+            <td>OAT HERB</td>
+            <td>OWIES ZIELE</td>
+          </tr>
+          <tr>
+            <td>BETULA PENDULA FOLIA</td>
+            <td>WHITE BIRCH LEAF</td>
+            <td>BRZOZA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>BETONICAE HERBA</td>
+            <td>BELLADONA HERB</td>
+            <td>BUKWICA ZIELE</td>
+          </tr>
+          <tr>
+            <td>BIDENS TRIPARTITA HERBA</td>
+            <td>THREE-LOBE BEGGARTICKS HERB</td>
+            <td>UCZEP ZIELE</td>
+          </tr>
+          <tr>
+            <td>BORAGO OFFICINALIS HERBA</td>
+            <td>BORAGE HERB</td>
+            <td>OGÓRECZNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>BRASSICA NIGRA SEMEN</td>
+            <td>BLACK MUSTARD</td>
+            <td>GORCZYCA CZARNA</td>
+          </tr>
+          <tr>
+            <td>BURSAE PASTORIS HERBA</td>
+            <td>SHEPHERDS PURSE HERB</td>
+            <td>TASZNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>CALENDULA OFFICINALIS FLOS</td>
+            <td>POT MARIGOLD FLOWER</td>
+            <td>NAGIETEK KWIAT</td>
+          </tr>
+          <tr>
+            <td>CALLUNA VULGARIS FLOS</td>
+            <td>COMMON HEATHER FLOWER</td>
+            <td>WRZOS KWIAT</td>
+          </tr>
+          <tr>
+            <td>CALLUNA VULGARIS HERBA</td>
+            <td>COMMON HEATHER HERB</td>
+            <td>WRZOS ZIELE</td>
+          </tr>
+          <tr>
+            <td>CARDUI MARIANUM SEMEN</td>
+            <td>MILK THISTLE SEED</td>
+            <td>OSTROPEST NASIONA</td>
+          </tr>
+          <tr>
+            <td>CENTAUREA CYANUS FLORES</td>
+            <td>CORNFLOWER</td>
+            <td>CHABER BŁAWATEK</td>
+          </tr>
+          <tr>
+            <td>CHAMOMILLAE FLOS</td>
+            <td>CAMOMILLE POLLEN</td>
+            <td>RUMIANEK RURKA</td>
+          </tr>
+          <tr>
+            <td>CHELIDONI HERBA</td>
+            <td>CHELIDONUM HERB</td>
+            <td>GLISTNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>CNICUS BENEDICTUS HERBA</td>
+            <td>HOLY THISTLE HERB</td>
+            <td>DRAPACZ LEKARSKI ZIELE</td>
+          </tr>
+          <tr>
+            <td>CRATEAGI FLORES CUM FOLIA</td>
+            <td>HAWTHORN FLOWER WITH LEAVE</td>
+            <td>KWIAT GŁOGU Z LIŚCIEM</td>
+          </tr>
+          <tr>
+            <td>CYNARA SCOLYMUS FOLIA</td>
+            <td>ARTICHOKE LEAF</td>
+            <td>KARCZOCH LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>CYNOSBATI FRUCTUS</td>
+            <td>ROSEHIPS</td>
+            <td>DZIKA RÓŻA OWOC</td>
+          </tr>
+          <tr>
+            <td>ECHINACEA PURPUREA HERBA</td>
+            <td>PURPLE ECHINACEA HERBA</td>
+            <td>JEŻÓWKA PURPUROWA ZIELE</td>
+          </tr>
+          <tr>
+            <td>ECHINACEA PURPUREA FOLIA</td>
+            <td>PURPLE ECHINACEA LEAF</td>
+            <td>JEŻÓWKA PURPUROWA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>ECHINACEA PURPUREA RADIX</td>
+            <td>PURPLE ECHINACEA ROOT</td>
+            <td>JEŻÓWKA PURPUROWA KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>EQUISETUM ARVENSE HERBA</td>
+            <td>HORSETAIL HERB</td>
+            <td>SKRZYP ZIELE</td>
+          </tr>
+          <tr>
+            <td>EUPHRASIA OFFICINALIS HERBA</td>
+            <td>EYEBRIGHT HERB</td>
+            <td>ŚWIETLIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>FARFARAE FOLIA</td>
+            <td>COLTSFOOT LEAF</td>
+            <td>PODBIAŁ LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>FILIPENDULA ULMARIA HERBA</td>
+            <td>MEADOWSWEET HERB</td>
+            <td>WIĄZÓWKA BŁOTNA ZIELE</td>
+          </tr>
+          <tr>
+            <td>FILIPENDULA ULMARIA FLOS</td>
+            <td>MEADOWSWEET FLOWER</td>
+            <td>WIĄZÓWKA BŁOTNA KWIAT</td>
+          </tr>
+          <tr>
+            <td>FOENICULUM VULGARE FRUCTUS</td>
+            <td>FENNEL FRUIT</td>
+            <td>KOPER WŁOSKI OWOC</td>
+          </tr>
+          <tr>
+            <td>FRAGARIA VESCA HERBA</td>
+            <td>WILD STRAWBERRY HERB</td>
+            <td>POZIOMKA ZIELE</td>
+          </tr>
+          <tr>
+            <td>FRANGULA CORTEX</td>
+            <td>BUCKTHORN BARK</td>
+            <td>KRUSZYNA KORA</td>
+          </tr>
+          <tr>
+            <td>FRAXINI CORTEX</td>
+            <td>ASH BARK</td>
+            <td>JESION KORA</td>
+          </tr>
+          <tr>
+            <td>GALEGA OFFICINALIS HERBA</td>
+            <td>GOAT’S RUE HERB</td>
+            <td>RUTWICA ZIELE/td></td>
+          </tr>
+
+          <tr>
+            <td>HELICHRYSUM ARENARIUM FLOS</td>
+            <td>DWARF EVERLAST FLOWER</td>
+            <td>KOCANKA KWIAT</td>
+          </tr>
+          <tr>
+            <td>HIEROCHLOE ODORATA HERBA</td>
+            <td>SWEET-GRASS HERB</td>
+            <td>TURÓWKA WONNA ZIELE</td>
+          </tr>
+          <tr>
+            <td>HUMULUS LUPULUS CONUS</td>
+            <td>HOP STROBILES</td>
+            <td>CHMIEL SZYSZKA</td>
+          </tr>
+          <tr>
+            <td>HYPERICUM PERFORATUM HERBA</td>
+            <td>ST. JOHN’S WORTH HERB</td>
+            <td>DZIURAWIEC ZIELE</td>
+          </tr>
+          <tr>
+            <td>HYSSOPUS OFFICINALIS HERB</td>
+            <td>HYSSOP HERB</td>
+            <td>HYZOP ZIELE</td>
+          </tr>
+          <tr>
+            <td>INULA HELENIUM RADIX</td>
+            <td>ELECAMPANE ROOT</td>
+            <td>OMAN KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>JUNIPERUS FRUCTUS</td>
+            <td>JUNIPER FRUIT</td>
+            <td>JAŁOWIEC OWOC</td>
+          </tr>
+          <tr>
+            <td>LAMIUM ALBUM HERBA</td>
+            <td>WHITE DEAD-NETTLE HERB</td>
+            <td>JASNOTA ZIELE</td>
+          </tr>
+          <tr>
+            <td>LAMIUM ALBUM FLOS</td>
+            <td>WHITE DEAD-NETTLE FLOWER</td>
+            <td>JASNOTA KWIAT</td>
+          </tr>
+          <tr>
+            <td>LAVANDULA FLOS</td>
+            <td>LAVENDER FLOWER</td>
+            <td>LAWENDA KWIAT</td>
+          </tr>
+          <tr>
+            <td>LEONORUS CARDIACA HERBA</td>
+            <td>MOTHERWORT HERB</td>
+            <td>SERDECZNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>LEVISTICI RADIX</td>
+            <td>LOVAGE ROOT</td>
+            <td>LUBCZYK KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>MALVA SILVESTRIS FLOS</td>
+            <td>BLUE MALLOW FLOWER</td>
+            <td>ŚLAZ KWIAT</td>
+          </tr>
+          <tr>
+            <td>MARRUBIUM VULGARE HERB</td>
+            <td>WHITE HOREHOUND HERB</td>
+            <td>SZANTA ZIELE</td>
+          </tr>
+          <tr>
+            <td>MELILOTUS OFFICINALIS HERBA</td>
+            <td>YELLOW MELILOT HERB</td>
+            <td>NOSTRZYK ŻÓŁTY ZIELE</td>
+          </tr>
+          <tr>
+            <td>MELISSAE OFFICINALIS FOLIA</td>
+            <td>LEMON BALM LEAF</td>
+            <td>MELISA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>MELISSAE OFFICINALIS HERBA</td>
+            <td>LEMON BALM HERB</td>
+            <td>MELISA ZIELE</td>
+          </tr>
+          <tr>
+            <td>MENTHA PIPERITA FOLIA</td>
+            <td>PEPPERMINT LEAF</td>
+            <td>MIĘTA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>MENTHA PIPERITA HERBA</td>
+            <td>PEPPERMINT HERB</td>
+            <td>MIĘTA ZIELE</td>
+          </tr>
+          <tr>
+            <td>MENYANTHES TRIFOLIATA FOLIA</td>
+            <td>BUCKBEAN LEAF</td>
+            <td>BOBREK TRÓJLISTKOWY LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>MILLEFOLIUM HERBA</td>
+            <td>YARROW HERB</td>
+            <td>KRWAWNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>MILLEFOLIUM FLOS</td>
+            <td>YARROW FLOWER</td>
+            <td>KRWAWNIK KWIAT</td>
+          </tr>
+          <tr>
+            <td>MYRTILLI FOLIA</td>
+            <td>BILBERRY LEAF</td>
+            <td>LIŚĆ BORÓWKI CZARNEJ</td>
+          </tr>
+          <tr>
+            <td>MYRTILLI HERBA</td>
+            <td>BILBERRY HERB</td>
+            <td>ZIELE BORÓWKI CZARNEJ</td>
+          </tr>
+          <tr>
+            <td>ORIGANUM VULGARE HERBA</td>
+            <td>ORIGANUM HERB</td>
+            <td>LEBIODKA POSPOLITA (OREGANO)</td>
+          </tr>
+          <tr>
+            <td>PLANTAGO LANCEOLATA FOLIA</td>
+            <td>RIBWORT PLANTAIN LEAF</td>
+            <td>BABKA LANCETOWATA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>PLANTAGO MAJOR FOLIA</td>
+            <td>GREATER PLANTAIN LEAF</td>
+            <td>BABKA SZEROKOLISTNA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>POLIGONI AVICULARIS HERBA</td>
+            <td>KNOTGRASS HERB</td>
+            <td>RDEST PTASI ZIELE</td>
+          </tr>
+          <tr>
+            <td>POTENTILLA ANSERINA HERBA</td>
+            <td>SILVERWEED HERB</td>
+            <td>PIĘCIORNIK GĘSI (SREBRNIK) ZIELE</td>
+          </tr>
+          <tr>
+            <td>POTENTILLA ERECTA RADIX</td>
+            <td>TORMENTIL ROOT</td>
+            <td>PIĘCIORNIK KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>PRUNI SPINOSA FRUCTUS</td>
+            <td>BLACKTHORN FRUIT</td>
+            <td>TARNINA OWOC</td>
+          </tr>
+          <tr>
+            <td>PULMONARIA OFFICINALIS FOLIA</td>
+            <td>LUNGWORT LEAF</td>
+            <td>MIODUNKA PLAMISTA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>QUERCUS CORTEX</td>
+            <td>OAK BARK</td>
+            <td>KORA DĘBU</td>
+          </tr>
+          <tr>
+            <td>RHEUM PALMATUM RADIX</td>
+            <td>TURKISH RHUBARB ROOT</td>
+            <td>RZEWIEŃ DŁONIASTY KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>RIBES NIGRUM FOLIA</td>
+            <td>BLACK CURRANT LEAF</td>
+            <td>LIŚĆ PORZECZKI CZARNEJ</td>
+          </tr>
+          <tr>
+            <td>RIBES NIGRUM FRUCTUS</td>
+            <td>BLACK CURRANT FRUIT</td>
+            <td>OWOC PORZECZKI CZARNEJ</td>
+          </tr>
+          <tr>
+            <td>ROSA CANINA FRUCTUS</td>
+            <td>DOG ROSE FRUIT</td>
+            <td>DZIKA RÓŻA OWOC</td>
+          </tr>
+          <tr>
+            <td>RUBI IDEAE FOLIA</td>
+            <td>RASPBERRY LEAF</td>
+            <td>LIŚĆ MALINY</td>
+          </tr>
+          <tr>
+            <td>RUBI FRUTICOSUS FOLIA</td>
+            <td>BLACKBERRY LEAF</td>
+            <td>LIŚĆ JEŻYNY</td>
+          </tr>
+          <tr>
+            <td>RUTA GRAVEOLENS HERBA</td>
+            <td>COMMON RUE HERB</td>
+            <td>RUTA ZIELE</td>
+          </tr>
+          <tr>
+            <td>SALIX ALBA CORTEX</td>
+            <td>WHITE WILLOW BARK</td>
+            <td>KORA WIERZBY</td>
+          </tr>
+          <tr>
+            <td>SALVIA OFFICINALIS FOLIA</td>
+            <td>SAGE LEAF</td>
+            <td>SZAŁWIA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>SALVIA OFFICINALIS HERBA</td>
+            <td>SAGE HERB</td>
+            <td>SZAŁWIA ZIELE</td>
+          </tr>
+          <tr>
+            <td>SAMBUCI NIGRA FLOS</td>
+            <td>ELDER FLOWER</td>
+            <td>BEZ CZARNY KWIAT</td>
+          </tr>
+          <tr>
+            <td>SAMBUCI NIGRA FRUCTUS</td>
+            <td>ELDER BERRY</td>
+            <td>BEZ CZARNY OWOC</td>
+          </tr>
+          <tr>
+            <td>SATUREJA HORTENSIS FOLIA</td>
+            <td>SUMMER SAVORY LEAF</td>
+            <td>CZĄBER LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>SOLIDAGO CANADENSIS HERBA</td>
+            <td>CANADIAN GOLDEN ROD HERB</td>
+            <td>NAWŁOĆ KANADYJSKA ZIELE</td>
+          </tr>
+          <tr>
+            <td>SOLIDAGO VIRGAUREA HERBA</td>
+            <td>GOLDEN ROD HERB</td>
+            <td>NAWŁOĆ POSPOLITA ZIELE</td>
+          </tr>
+          <tr>
+            <td>SORBUS AUCUPARIA FRUCTUS</td>
+            <td>ROWAN BERRY</td>
+            <td>JARZĘBINA OWOC</td>
+          </tr>
+          <tr>
+            <td>SYMPHYTUM OFFICINALE RADIX</td>
+            <td>COMFREY ROOT</td>
+            <td>ŻYWOKOST KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>TANACETUM VULGARE HERBA</td>
+            <td>TANSY HERB</td>
+            <td>WROTYCZ ZIELE</td>
+          </tr>
+          <tr>
+            <td>ANACETUM VULGARE FLOS</td>
+            <td>TANSY FLOWER</td>
+            <td>WROTYCZ KWIAT</td>
+          </tr>
+          <tr>
+            <td>TARAXACUM OFFICINALE HERBA</td>
+            <td>DANDELION HERB</td>
+            <td>MNISZEK ZIELE</td>
+          </tr>
+          <tr>
+            <td>TARAXACUM OFFICINALE RADIX</td>
+            <td>DANDELION ROOT</td>
+            <td>MNISZEK KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>THYMUS SERPYLLUM HERBA</td>
+            <td>WILD THYME HERB</td>
+            <td>MACIERZANKA ZIELE</td>
+          </tr>
+          <tr>
+            <td>THYMYS VULGARIS FOLIA</td>
+            <td>THYME LEAF</td>
+            <td>TYMIANEK LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>THYMUS VULGARIS HERBA</td>
+            <td>THYME HERB</td>
+            <td>TYMIANEK ZIELE</td>
+          </tr>
+          <tr>
+            <td>TILIA CORDATA FLOS</td>
+            <td>LINDEN FLOWER</td>
+            <td>LIPA KWIAT</td>
+          </tr>
+          <tr>
+            <td>TILIA CORDATA FOLIA</td>
+            <td>LINDEN LEAF</td>
+            <td>LIPA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>TILIA CORDATA CORTEX</td>
+            <td>LINDEN BARK</td>
+            <td>LIPA KORA</td>
+          </tr>
+          <tr>
+            <td>TRIGONELLA FOENUM-GRAECUM SEMEN</td>
+            <td>FENUGREEK SEED</td>
+            <td>KOZIERADKA</td>
+          </tr>
+          <tr>
+            <td>URTICA DIOICA HERBA</td>
+            <td>NETTLE HERB</td>
+            <td>POKRZYWA ZIELE</td>
+          </tr>
+          <tr>
+            <td>URTICA DIOICA FOLIA</td>
+            <td>NETTLE LEAF</td>
+            <td>POKRZYWA LIŚĆ</td>
+          </tr>
+          <tr>
+            <td>VALERIANA OFFICINALIS RADIX</td>
+            <td>VALERIAN ROOT</td>
+            <td>KOZŁEK LEKARSKI KORZEŃ</td>
+          </tr>
+          <tr>
+            <td>VERONICAE HERBA</td>
+            <td>SPEDWELL HERB</td>
+            <td>PRZETACZNIK ZIELE</td>
+          </tr>
+          <tr>
+            <td>VIOLA TRICOLOR HERBA</td>
+            <td>WILD PANSY HERB</td>
+            <td>BRATEK ZIELE</td>
+          </tr>
+          <tr>
+            <td>VISCIUM ALBUM HERBA</td>
+            <td>MISTLETOE HERB</td>
+            <td>JEMIOŁA</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!-- ### foooter ### -->
+    <footer class="footer">
+      <img src="../dist/images/btnLeaf.png" alt="liść" class="footer__background" />
+      <div class="logo">
+        <img class="logo__img" src="../dist/images/logoIcon.png" alt="logo" />
+        <h1 class="logo__item">Herbimar</h1>
+      </div>
+      <section class="footer__main MainWrapper">
+        <div class="footer__left">
+          <a href="../index.html" class="footer__left-item">Strona główna</a>
+          <a href="procesprod.html" class="footer__left-item"
+            >Proces produkcyjny</a
+          >
+          <a href="produkty.html" class="footer__left-item">Produkty</a>
+          <a href="certyfikaty.html" class="footer__left-item">Certyfikaty</a>
+          <a href="kontakt.html" class="footer__left-item">Kontakt</a>
+        </div>
+        <div class="footer__right">
+          <h2 class="footer__right-title">
+            Herbimar Spółka Jawna M. Fornal, A. Fornal 21-060
+          </h2>
+          <h3 class="footer__right-rest">📞Dane kontaktowe:</h3>
+          <a href="tel:+48667373300" class="footer__right-contact"
+            ><b>Skup ziół:</b> +48 667-373-300</a
+          >
+          <br />
+          <br />
+          <a href="tel:+48508099942" class="footer__right-contact"
+            ><b>Sprzedaż:</b> +48 508-099-942</a
+          >
+          <br />
+          <br />
+          <a href="tel:+48607552209" class="footer__right-contact"
+            ><b>Księgowość:</b> +48 607-552-209</a
+          >
+          <br />
+          <br />
+          <a href="tel:+48533616019" class="footer__right-contact"
+            ><b>Laboratorium:</b> +48 533-616-019</a
+          >
+        </div>
+      </section>
+      <img src="../dist/images/btnLeaf.png" alt="liść" class="footer__background" />
+    </footer>
+    <!-- ### foooter ### -->
+  </body>
+</html>
