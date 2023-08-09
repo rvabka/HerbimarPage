@@ -10,6 +10,7 @@ const sourcemaps = require("gulp-sourcemaps");
 const browserSync = require("browser-sync").create();
 const reload = browserSync.reload;
 const kit = require("gulp-kit");
+const clean = require('gulp-clean');
 
 const paths = {
   html: "/html/**/*.kit",
@@ -51,7 +52,7 @@ function convertImges(done) {
 }
 
 function handleKits(done) {
-  src(paths.html).pipe(kit()).pipe(dest('./'));
+  src(paths.html).pipe(kit()).pipe(dest("./"));
   done();
 }
 
