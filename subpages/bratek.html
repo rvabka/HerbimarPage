@@ -47,14 +47,36 @@
     </div>
     <header class="header MainWrapper">
       <nav class="nav">
-        <div class="nav__title">
-          <img
-            src="../dist/images/logoIcon.png"
-            width="50px"
-            height="50px"
-            alt="logo firmy Herbimar"
-          />
-          <h1 class="nav__title-item"><a href="../index.html">Herbimar</a></h1>
+        <div class="nav__flex">
+          <div class="nav__title">
+            <img
+              src="../dist/images/logoIcon.png"
+              width="50px"
+              height="50px"
+              alt="logo firmy Herbimar"
+            />
+            <p class="nav__title-item"><a href="../index.html">Herbimar</a></p>
+          </div>
+          <div class="nav__lang">
+            <a class="nav__lang-link" href="../subpagesEN/pansy.html">
+              <img
+                src="../dist/images/english.png"
+                alt="ikona flagi angielskiej"
+                class="nav__lang-item"
+                width="40px"
+                height="40px"
+              />
+            </a>
+            <a class="nav__lang-link" href="bratek.html">
+              <img
+                src="../dist/images/poland.png"
+                alt="ikona flagi polskiej"
+                class="nav__lang-item activeLang"
+                width="40px"
+                height="40px"
+              />
+            </a>
+          </div>
         </div>
         <ul class="nav__list">
           <li class="nav__list-item">
@@ -118,7 +140,7 @@
             <a href="../index.html">Herbimar</a>
           </h1>
         </div>
-        <div class="navMobile__list">
+        <ul class="navMobile__list">
           <li class="navMobile__list-item">
             <a href="../index.html">Strona główna</a>
           </li>
@@ -134,28 +156,7 @@
           <li class="navMobile__list-item">
             <a href="kontakt.html">Kontakt</a>
           </li>
-          <div class="navMobile__list-lang">
-            <li class="navMobile__list-item">
-              <a href="../subpagesEN/pansy.html"
-                ><img
-                  src="../dist/images/english.png"
-                  alt="ikona flagi angielskiej"
-                  width="36px"
-                  height="36px"
-              /></a>
-            </li>
-            <li class="navMobile__list-item">
-              <a href="bratek.html"
-                ><img
-                  src="../dist/images/poland.png"
-                  alt="ikona flagi polskiej"
-                  width="36px"
-                  height="36px"
-                  class="activeLang"
-              /></a>
-            </li>
-          </div>
-        </div>
+        </ul>
       </nav>
     </header>
     <main class="main">
